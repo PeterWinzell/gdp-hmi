@@ -45,14 +45,14 @@ Rectangle {
             anchors.rightMargin: 20
             onClicked: {
                 console.log("buttonOne clicked");
-                window.qmlSignal("Hello from QML (buttonOne)")
+                window.qmlSignal("Hello from QML (buttonOne) - pw was here")
             }
         }
         Text {
             x: 0
             y: 0
             width: 120
-            text: qsTr("Hello GENIVI World")
+            text: qsTr("Hello GENIVI World - Melco is calling")
             anchors.left: parent.left
             anchors.leftMargin: 10
             anchors.top: parent.top
